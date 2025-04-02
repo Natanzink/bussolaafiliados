@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: "Saira", sans-serif;
+}
+
+.header {
+    border-bottom: 2px solid rgba(09, 205, 65, 0.3);
+}
+
+.imgAfiliados {
+    height: 100px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.textNegrite {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: "Saira", sans-serif;
+    font-size: 25px;
+}
+
+.textParagrafo {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttonLindo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.comece {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: rgb(09, 205, 65);
+    width: 280px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.comece a {
+    text-decoration: none;
+    color: rgb(0, 3, 5);
+    font-family: "Saira", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.comece:hover {
+    background-color: rgb(13, 13, 13);
+    cursor: pointer;
+}
+
+.comece a:hover {
+    color: rgb(09, 205, 65);
+    transition: 0.5S;
+    cursor: pointer;
+}
+
+.vendas {
+    background-color: rgb(13, 13, 13); /* Fundo escuro */
+    width: 640px;
+    height: auto;
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    
+    /* Borda com gradiente na parte inferior */
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, rgba(9, 205, 65, 0), rgba(9, 205, 65, 1));
+    border-image-slice: 1;
+    
+    /* Cantos arredondados */
+    border-radius: 20px;
+    
+    /* Efeito de sombra sutil */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.vendas h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.vendas p {
+    color: rgba(255, 255, 255, 0.7); /* Texto mais suave */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#depoiments {
+    text-align: center;
+}
+
+.subtitulo {
+    color: rgb(9, 205, 65); /* Verde neon */
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.depoimentos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(9, 205, 65, 0.5);
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.discord {
+    display: flex;
+    align-items: center;
+    background: #111;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #0f0;
+    max-width: 900px;
+    margin-left: 150px;
+}
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+.text h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.text strong {
+    color: #0f0;
+}
+.text p {
+    font-size: 14px;
+    color: #bbb;
+}
+.image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.oferta {
+    display: flex;
+    align-items: center;
+    background: #00220f;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #0f0;
+    max-width: 1000px;
+}
+.benefits {
+    flex: 1;
+    padding-right: 20px;
+}
+.benefits h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+.benefits li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.benefits li::before {
+    content: '✔';
+    color: #0f0;
+    margin-right: 10px;
+}
+.price-box {
+    background: #00371b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.price-box h3 {
+    color: #0f0;
+    font-size: 18px;
+}
+.price-box .price {
+    font-size: 32px;
+    font-weight: bold;
+}
+.strike {
+    text-decoration: line-through;
+    color: red;
+}
+.comprar-btn {
+    display: block;
+    margin-top: 15px;
+    background: #00ff99;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.pagamento {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direitosReservados {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(13, 13, 13);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
